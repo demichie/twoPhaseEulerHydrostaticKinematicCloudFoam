@@ -1,0 +1,20 @@
+
+ln -s ../../../regionModels/surfaceFilmModels/surfaceFilmModel/surfaceFilmModel.H .
+
+ln -s ../../../regionModels/regionModel/singleLayerRegion/singleLayerRegion.H .
+
+ln -s ../../../regionModels/regionModel/regionModel/regionModel.H .
+
+ln -s ../../../regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObjectList.H .
+
+ln -s ../../../regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObject.H .
+
+ln -s ../../../regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObjectListI.H .
+
+ln -s ../../../regionModels/regionModel/regionModel/regionModelI.H .
+
+ln -s ../../../regionModels/regionModel/regionModel/regionModelTemplates.C .
+
+ln -s ../../../regionModels/regionModel/singleLayerRegion/singleLayerRegionTemplates.C .
+
+ln -s ../../../regionModels/surfaceFilmModels/surfaceFilmModel/surfaceFilmModelI.H .
