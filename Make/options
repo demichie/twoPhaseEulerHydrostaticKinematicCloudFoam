@@ -9,12 +9,18 @@ EXE_INC = \
     -IphaseCompressibleTurbulenceModels/lnInclude \
     -IinterfacialModels/lnInclude \
     -ItwoPhaseSystem/lnInclude \
+    -I$(LIB_SRC)/twoPhaseSystem/lnInclude \
     -I$(LIB_SRC)/finiteVolume/lnInclude \
     -I$(LIB_SRC)/meshTools/lnInclude \
     -I$(LIB_SRC)/lagrangian/basic/lnInclude \
     -I$(LIB_SRC)/lagrangian/intermediate/lnInclude \
+    -I$(LIB_SRC)/regionModels/surfaceFilmModels/surfaceFilmModel \
+    -I$(LIB_SRC)/regionModels/regionModel/singleLayerRegion \
+    -I$(LIB_SRC)/regionModels/regionModel/regionModel \
+    -I$(LIB_SRC)/regionModels/regionModel/regionModelFunctionObject/regionModelFunctionObject \
     -I$(LIB_SRC)/meshtools/lnInclude \
-    -I$(LIB_SRC)/sampling/lnInclude
+    -I$(LIB_SRC)/sampling/lnInclude \
+    -I$(LIB_SRC)
 
 EXE_LIBS = \
     -lcompressibleTransportModels \
